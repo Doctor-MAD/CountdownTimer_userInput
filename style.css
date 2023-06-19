@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.targetDate{
+    font-size: 2rem;
+}
+
+.coming-soon{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.countdown{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 60vw;
+    padding: 10px;
+    margin: 10px 10px;
+    text-align: center;
+    border: 2px solid black;
+}
+img{
+    height: 50vh;
+    width: 50vh;
+}
+
+.day,.hour,.minute,.second{
+    font-size: 2rem;
+}
